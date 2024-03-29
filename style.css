@@ -511,6 +511,7 @@ p {
 	background-color: #F0F3FF;
 }
 
+
 /* End Projects section */
 
 /* About Section */
@@ -568,6 +569,65 @@ p {
 	z-index: -1;
 }
 /* End About Section */
+
+/* Courses Section */
+#courses .courses {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+  }
+  #courses .courses-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+  }
+  #courses .course-item {
+	background-color: #F8EDFC;
+	width: 300px;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+	margin: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 18px 0 #9854CB2c;
+	transition: .3s ease box-shadow;
+  }
+  #courses .course-item:hover {
+	box-shadow: 0px 0px 5px 0 #6437A0;
+  }
+  
+  #courses .icon {
+	width: 70px;
+	margin-bottom: 10px;
+  }
+  #courses .course-info h1 {
+	font-size: 2.5rem;
+	font-weight: 500;
+	margin-bottom: 5px;
+  }
+  #courses .course-info h2 {
+	font-size: 2rem;
+	line-height: 2rem;
+	font-weight: 500;
+  }
+  /* End Courses Section */
+
+  .verify-button {
+	color: #fff;
+	font-weight: bold;
+	border: 2px solid transparent;
+	border-radius: 10px;
+	background-color: #42246A;
+	margin-top: 10px;
+	padding: 5px 10px;
+	font-size: 16px;
+	transition: border-width 0.3s, font-weight 0.3s;
+  }
+  
 
 /* contact Section */
 #contact .contact {
